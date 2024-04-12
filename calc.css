@@ -1,0 +1,134 @@
+body{
+  background-image: url('bg.png');
+background-repeat:no-repeat;
+}
+
+
+h3{
+  margin:0pc;
+  width: 100px;
+  border:1px solid black;
+  border-radius: 8px;
+  margin-left: 6pc;
+  background-color:rgb(155, 113, 155);
+  font-family:'averia serif';
+  font-style: italic;
+  font-size: 20px;
+  font-weight: normal;
+  outline:none;
+  border: 1px #5f5454 solid;
+  background: linear-gradient(145deg,#ecb348,#4e3a58);
+  box-shadow: inset 1px 1px 0px #5b3c7a,inset -1px -1px 0px #382f2f;
+  color:#f3ebeb;  
+}
+
+
+div{
+position:relative;
+top:3pc;
+left:30pc;
+  width: 300px;
+  height:450px;
+  padding: 20px;
+  background-color: rgb(175, 175, 194);
+border:8px solid black;
+border-radius:0px;
+border-left-width:2px;
+border-top-width:2px;
+  background: linear-gradient(145deg,#f1c01c,#a19312);
+  box-shadow: inset 2px 2px 0px #7d7c7e,inset -2px -2px 0px #1c1c1c;
+  color:#f0eeee;
+
+}
+
+#exitBtn{
+  position: relative;
+  left:10.1pc;
+  top: -22px;
+  margin-bottom: -10px;
+  background-color:#dbb22a;
+  border:none;
+  color:rgba(255, 255, 255, 0.13);
+}
+
+#exitBtn:hover{
+  background-color:red;
+  color:white;
+}
+
+#container{
+  text-align: center;
+}
+#disp{
+  height:5pc;
+  width:18pc;
+  margin-top: 1pc;
+  margin-bottom: 1pc;
+  text-align: right;
+  font-family:digital-7 mono;
+  border-radius: 15px;
+  font-size: 40px;
+  background-color: rgb(146, 240, 240);
+  background: linear-gradient(160deg,#cec296,#423b46);
+  color:#d4c6c6;
+  text-shadow:2px 2px #242222;
+  overflow-x: scroll;
+}
+
+#btn{
+  padding: 15px 25px;
+  height:50px;
+  width:70px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-style: bold;
+  font-size: 20px;
+  outline:none;
+  border: 2px #090909 solid;
+  background: linear-gradient(145deg,#171717,#444245);
+  box-shadow: inset 2px 2px 0px #7d7c7e,inset -2px -2px 0px #1c1c1c;
+  color:#f0eeee;
+  transition: 0.2s all;
+}
+
+#btn:active{
+  transform: scale(0.80);
+}
+
+
+#zerobtn{
+  height:50px;
+  width:145px;
+  border-radius:10px;
+  font-style: bold;
+  font-size: 20px;
+  outline:none;
+  border: 2px #090909 solid;
+  background: linear-gradient(145deg,#171717,#444245);
+  box-shadow: inset 2px 2px 0px #7d7c7e,inset -2px -2px 0px #1c1c1c;
+  color:#f0eeee;
+  padding: 15px 25px;
+  transition: 0.2s all;
+}
+
+#zerobtn:active{
+  transform: scale(0.80);
+}
+
+#equalbtn{
+  height:50px;
+  width:220px;
+  border-radius:10px;
+  font-style: bold;
+  font-size: 20px;
+  outline:none;
+  border: 2px #090909 solid;
+  background: linear-gradient(145deg,#171717,#444245);
+  box-shadow: inset 2px 2px 0px #7d7c7e,inset -2px -2px 0px #1c1c1c;
+  color:#f0eeee;
+  padding: 15px 25px;
+  transition: 0.2s all;
+}
+#equalbtn:active{
+  transform: scale(0.80);
+}
