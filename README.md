@@ -38,3 +38,7 @@ This calculator web application was created by Pankaj Mourya.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Feedback and Contributions
+
+Feedback and contributions are welcome! Feel free to open an issue or submit a pull request.
+
