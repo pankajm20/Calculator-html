@@ -19,5 +19,9 @@ function updateClock() {
 setInterval(updateClock, 1000);
 
 // Initial call to update the clock
+
+const name = "Ankit mourya";
+console.log(name);
+
 updateClock();
 
